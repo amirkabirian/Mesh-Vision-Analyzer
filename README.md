@@ -30,6 +30,9 @@ Its core operational workflow includes:
 1. **Webcam Frame Capture:** Renders an interactive browser button via JavaScript execution (`getUserMedia`) to record a live frame from the user's camera.
 2. **Mesh Landmarking:** Utilizes Google's MediaPipe `Face Landmarker` model to map precise 2D/3D coordinate points across facial features.
 3. **Semantic HUD & Analysis:**
+   * **Resolution Monitoring:** Displays real-time frame dimensions (width and height).
+   * **Demographics Estimation:** Evaluates approximate demographic indicators such as age group and gender classification.
+   * **Attire Analysis:** Detects basic clothing and apparel descriptors from the captured frame.
    * **Head Pose Estimation:** Determines directional orientation (frontal, turned left/right, tilted up/down).
    * **Symmetry Scoring:** Evaluates structural balance and geometric ratios across spatial coordinates.
    * **Expression Detection:** Recognizes emotional expressions using blendshape scoring matrices.
